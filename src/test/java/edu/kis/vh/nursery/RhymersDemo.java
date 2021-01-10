@@ -10,7 +10,7 @@ class RhymersDemo {
 
     /**
      * Main method for creating the factory and calling testRhymers method.
-     * @param args
+     * @param args - main arguments passed during execution
      */
 	public static void main(String[] args) {
 		RhymersFactory factory = new DefaultRhymersFactory();
@@ -20,7 +20,7 @@ class RhymersDemo {
 
     /**
      * testRhymers method for testing the factories.
-     * @param factory
+     * @param factory - Factory to get the Rhymers from.
      */
     public static void testRhymers(RhymersFactory factory) {
         DefaultCountingOutRhymer[] rhymers = { factory.getStandardRhymer(), factory.getFalseRhymer(),
