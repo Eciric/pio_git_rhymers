@@ -6,6 +6,7 @@ import edu.kis.vh.nursery.DefaultCountingOutRhymer;
 
 public class DefaultRhymersFactory implements RhymersFactory {
 
+    @Override
     public DefaultCountingOutRhymer getStandardRhymer() {
         return new DefaultCountingOutRhymer();
     }
